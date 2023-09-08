@@ -21,7 +21,7 @@ Seems that on **Arch Linux** is already installed.
 
 ### Example of output
 
-This is the output that I get when I connec my Zowie mouse:
+This is the output that I get when I connect my Zowie mouse:
 
 ```bash
 syspath: /sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.3
