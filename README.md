@@ -19,3 +19,17 @@ And run it:
 
 Seems that on **Arch Linux** is already installed.
 
+### Example of output
+
+This is the output that I get when I connec my Zowie mouse:
+
+```bash
+syspath: /sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.3
+devtype: usb_device
+subsystem: usb
+first_sysattr: idProduct
+first_tag: seat
+id_vendor: 1af3
+id_product: 0001
+product: ZOWIE Gaming mouse
+```
