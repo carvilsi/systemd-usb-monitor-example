@@ -33,3 +33,8 @@ id_vendor: 1af3
 id_product: 0001
 product: ZOWIE Gaming mouse
 ```
+
+---
+I will appreciate any comment, suggestions or improvement from you; Also if you like it please leave a start at the repo ;)
+
+Cheers and hack the planet!
