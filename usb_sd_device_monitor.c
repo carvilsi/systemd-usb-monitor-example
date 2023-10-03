@@ -64,36 +64,38 @@ static int monitor_handler(sd_device_monitor *m, sd_device *d, void *userdata)
         // we are interested only when a USB is connected
         // and print some things about the device.
         if (actions == SD_DEVICE_ADD) {
-                const char *syspath;
-                sd_device_get_syspath(d, &syspath);
-                print_usb_val(syspath);
-                
-                const char *devtype;
-                sd_device_get_devtype(d, &devtype);
-                print_usb_val(devtype);
+                                
+                const char *sysattr = sd_device_get_sysattr_first(d);
+                const char *sysattrvl;
+                sd_device_get_sysattr_value(d, sysattr, &sysattrvl);
 
-                const char *subsystem;
-                sd_device_get_subsystem(d, &subsystem);
-                print_usb_val(subsystem);
-                
-                const char *first_sysattr = sd_device_get_sysattr_first(d);
-                print_usb_val(first_sysattr);
-                
-                const char *first_tag;
-                first_tag = sd_device_get_tag_first(d);
-                print_usb_val(first_tag);
-                
-                const char *id_vendor;
-                sd_device_get_sysattr_value(d, "idVendor", &id_vendor);
-                print_usb_val(id_vendor);
+                // we go throw all the attributes that we could find
+                while (sysattr != NULL && sysattrvl != NULL) {
+                        if (strcmp(sysattr, "serial") != 0)
+                                printf("%s: %s\n", sysattr, sysattrvl);
+                        else
+                                printf("%s: %x\n", sysattr, sysattrvl);
+                        sysattr = sd_device_get_sysattr_next(d);
+                        sd_device_get_sysattr_value(d, sysattr, &sysattrvl);
+                }
 
-                const char *id_product;
-                sd_device_get_sysattr_value(d, "idProduct", &id_product);
-                print_usb_val(id_product);
+                printf("\n------\n");
 
-                const char *product;
-                sd_device_get_sysattr_value(d, "product", &product);
-                print_usb_val(product);
+                const char *prop, *key;
+                key = sd_device_get_property_first(d, &prop);
+                const char *propv;
+                sd_device_get_property_value(d, key, &propv);
+
+                // we go throw all the propertied that we could find
+                while (prop != NULL && propv != NULL) {
+                        printf("%s: %s\n", key, propv);
+                        key = sd_device_get_property_next(d, &prop);
+                        sd_device_get_property_value(d, key, &propv);
+                }
+
+                const char *path;
+                sd_device_get_syspath(d, &path);
+                print_usb_val(path);
         }
 
         return 0;
