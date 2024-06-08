@@ -1,0 +1,95 @@
+bMaxPower: 100mA
+quirks: 0x0
+speed: 480
+bcdDevice: 0100
+power/level: on
+power/connected_duration: 184
+version:  2.00
+bDeviceClass: 00
+driver: usb
+ltm_capable: no
+rx_lanes: 1
+idVendor: 1e3d
+tx_lanes: 1
+busnum: 2
+port: 2
+uevent: MAJOR=189
+MINOR=162
+DEVNAME=bus/usb/002/035
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=1e3d/198a/100
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=035
+authorized: 1
+power/autosuspend_delay_ms: 2000
+devpath: 1.4
+descriptors: 
+maxchild: 0
+bmAttributes: 80
+subsystem: usb
+power/runtime_suspended_time: 0
+bNumConfigurations: 1
+urbnum: 5
+bNumInterfaces:  1
+bMaxPacketSize0: 64
+power/persist: 1
+dev: 189:162
+avoid_reset_quirk: 0
+power/runtime_status: active
+idProduct: 198a
+power/autosuspend: 2
+devnum: 35
+bDeviceProtocol: 00
+bDeviceSubClass: 00
+remove: 00
+configuration: 
+bConfigurationValue: 1
+removable: unknown
+power/active_duration: 187
+power/control: on
+power/runtime_active_time: 23
+
+------
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/035
+DEVTYPE: usb_device
+PRODUCT: 1e3d/198a/100
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 035
+SEQNUM: 24784
+USEC_INITIALIZED: 145091499354
+ID_BUS: usb
+ID_MODEL: 198a
+ID_MODEL_ENC: 198a
+ID_MODEL_ID: 198a
+ID_SERIAL: 1e3d_198a
+ID_VENDOR: 1e3d
+ID_VENDOR_ENC: 1e3d
+ID_VENDOR_ID: 1e3d
+ID_REVISION: 0100
+ID_USB_MODEL: 198a
+ID_USB_MODEL_ENC: 198a
+ID_USB_MODEL_ID: 198a
+ID_USB_SERIAL: 1e3d_198a
+ID_USB_VENDOR: 1e3d
+ID_USB_VENDOR_ENC: 1e3d
+ID_USB_VENDOR_ID: 1e3d
+ID_USB_REVISION: 0100
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: Chipsbank Microelectronics Co., Ltd
+ID_MODEL_FROM_DATABASE: Flash Disk
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 162
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+path: /sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4

@@ -35,6 +35,5 @@ product: ZOWIE Gaming mouse
 ```
 
 ---
-I will appreciate any comment, suggestions or improvement from you; Also if you like it please leave a start at the repo ;)
+I will appreciate any comment, suggestions or improvement from you; Also if you like it please leave a :star: ;)
 
-Cheers and hack the planet!

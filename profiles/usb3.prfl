@@ -1,0 +1,98 @@
+avoid_reset_quirk: 0
+power/level: on
+power/control: on
+port: on
+bmAttributes: 80
+urbnum: 9
+removable: unknown
+power/runtime_suspended_time: 0
+manufacturer:         
+quirks: 0x0
+configuration: 
+authorized: 1
+rx_lanes: 1
+devpath: 1.4
+idProduct: 1234
+bDeviceClass: 00
+serial: 1047cf50
+bcdDevice: 0100
+bNumInterfaces:  1
+version:  2.00
+bDeviceSubClass: 00
+bMaxPacketSize0: 64
+bNumConfigurations: 1
+power/runtime_status: active
+power/connected_duration: 187
+power/runtime_active_time: 24
+bDeviceProtocol: 00
+uevent: MAJOR=189
+MINOR=164
+DEVNAME=bus/usb/002/037
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=abcd/1234/100
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=037
+dev: 189:164
+busnum: 2
+devnum: 37
+descriptors: 
+power/autosuspend: 2
+power/active_duration: 187
+power/persist: 1
+speed: 480
+bConfigurationValue: 1
+tx_lanes: 1
+driver: usb
+idVendor: abcd
+remove: abcd
+subsystem: usb
+power/autosuspend_delay_ms: 2000
+product: PHILIPS         
+maxchild: 0
+ltm_capable: no
+bMaxPower: 100mA
+
+------
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/037
+DEVTYPE: usb_device
+PRODUCT: abcd/1234/100
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 037
+SEQNUM: 24853
+USEC_INITIALIZED: 145109166143
+ID_BUS: usb
+ID_MODEL: PHILIPS
+ID_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 1234
+ID_SERIAL: _PHILIPS
+ID_VENDOR: 
+ID_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_VENDOR_ID: abcd
+ID_REVISION: 0100
+ID_USB_MODEL: PHILIPS
+ID_USB_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 1234
+ID_USB_SERIAL: _PHILIPS
+ID_USB_VENDOR: 
+ID_USB_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_VENDOR_ID: abcd
+ID_USB_REVISION: 0100
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: LogiLink
+ID_MODEL_FROM_DATABASE: UDisk flash drive
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 164
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+path: /sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4

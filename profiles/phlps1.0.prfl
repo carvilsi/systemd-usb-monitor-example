@@ -1,0 +1,53 @@
+bDeviceProtocol, 00
+bDeviceProtocol: 00
+version:  2.00
+port:  2.00
+dev: 189:223
+tx_lanes: 1
+descriptors: 
+driver: usb
+urbnum: 5
+power/control: on
+authorized: 1
+power/autosuspend_delay_ms: 2000
+power/connected_duration: 184
+power/persist: 1
+power/runtime_suspended_time: 0
+maxchild: 0
+bDeviceSubClass: 00
+speed: 480
+bNumInterfaces:  1
+power/active_duration: 184
+quirks: 0x0
+bConfigurationValue: 1
+idProduct: 198a
+bcdDevice: 0100
+power/runtime_status: active
+power/level: on
+bDeviceClass: 00
+devpath: 1.4
+power/autosuspend: 2
+removable: unknown
+busnum: 2
+bNumConfigurations: 1
+bMaxPower: 100mA
+remove: 100mA
+ltm_capable: no
+uevent: MAJOR=189
+MINOR=223
+DEVNAME=bus/usb/002/096
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=1e3d/198a/100
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=096
+bMaxPacketSize0: 64
+rx_lanes: 1
+configuration: 
+devnum: 96
+bmAttributes: 80
+subsystem: usb
+idVendor: 1e3d
+avoid_reset_quirk: 0
+power/runtime_active_time: 23

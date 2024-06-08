@@ -1,0 +1,1490 @@
+bDeviceClass: 00
+urbnum: 9
+uevent: MAJOR=189
+MINOR=238
+DEVNAME=bus/usb/002/111
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=6557/225/200
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=111
+idProduct: 0225
+power/active_duration: 634
+bDeviceSubClass: 00
+driver: usb
+power/autosuspend_delay_ms: 2000
+configuration: 
+rx_lanes: 1
+power/control: on
+maxchild: 0
+quirks: 0x0
+bDeviceProtocol: 00
+power/connected_duration: 634
+power/runtime_status: active
+bConfigurationValue: 1
+tx_lanes: 1
+removable: unknown
+product: USB DISK 2.0
+power/runtime_active_time: 24
+avoid_reset_quirk: 0
+idVendor: 6557
+bNumConfigurations: 1
+bMaxPacketSize0: 64
+serial: 5534321297831581622
+bNumInterfaces:  1
+power/runtime_suspended_time: 0
+bMaxPower: 100mA
+devpath: 1.4
+power/level: on
+speed: 480
+remove: 480
+power/autosuspend: 2
+version:  2.00
+dev: 189:238
+devnum: 111
+power/persist: 1
+bmAttributes: 80
+port: 80
+authorized: 1
+subsystem: usb
+bcdDevice: 0200
+descriptors: 
+ltm_capable: no
+busnum: 2
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/111
+DEVTYPE: usb_device
+PRODUCT: 6557/225/200
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 111
+SEQNUM: 16708
+USEC_INITIALIZED: 85381320494
+ID_BUS: usb
+ID_MODEL: USB_DISK_2.0
+ID_MODEL_ENC: USB\x20DISK\x202.0
+ID_MODEL_ID: 0225
+ID_SERIAL: 6557_USB_DISK_2.0_5534321297831581622
+ID_SERIAL_SHORT: 5534321297831581622
+ID_VENDOR: 6557
+ID_VENDOR_ENC: 6557
+ID_VENDOR_ID: 6557
+ID_REVISION: 0200
+ID_USB_MODEL: USB_DISK_2.0
+ID_USB_MODEL_ENC: USB\x20DISK\x202.0
+ID_USB_MODEL_ID: 0225
+ID_USB_SERIAL: 6557_USB_DISK_2.0_5534321297831581622
+ID_USB_SERIAL_SHORT: 5534321297831581622
+ID_USB_VENDOR: 6557
+ID_USB_VENDOR_ENC: 6557
+ID_USB_VENDOR_ID: 6557
+ID_USB_REVISION: 0200
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: Emtec
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 238
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+
+#############
+: 
+#############
+
+events_poll_msecs: -1
+queue/rq_affinity: 1
+events_async: 
+queue/optimal_io_size: 0
+size: 61440000
+queue/physical_block_size: 512
+queue/max_segment_size: 65536
+queue/chunk_sectors: 0
+queue/zoned: none
+integrity/write_generate: 0
+capability: 0
+uevent: MAJOR=8
+MINOR=16
+DEVNAME=sdb
+DEVTYPE=disk
+DISKSEQ=112
+queue/add_random: 1
+queue/dax: 0
+queue/zone_write_granularity: 0
+integrity/device_is_integrity_capable: 0
+alignment_offset: 0
+queue/discard_zeroes_data: 0
+dev: 8:16
+queue/stable_writes: 0
+queue/io_poll_delay: -1
+mq/0/nr_reserved_tags: 0
+power/runtime_status: unsupported
+queue/nomerges: 0
+queue/max_sectors_kb: 120
+queue/iosched/fifo_batch: 16
+hidden: 0
+queue/rotational: 1
+queue/virt_boundary_mask: 0
+queue/write_cache: write through
+power/runtime_suspended_time: 0
+queue/iosched/async_depth: 48
+queue/iostats: 1
+integrity/format: none
+trace/end_lba: disabled
+mq/0/nr_tags: 1
+queue/discard_max_hw_bytes: 0
+queue/scheduler: none [mq-deadline] kyber bfq 
+queue/io_poll: 0
+queue/wbt_lat_usec: 75000
+queue/write_zeroes_max_bytes: 0
+device: 0
+queue/max_integrity_segments: 0
+diskseq: 112
+subsystem: block
+queue/iosched/write_expire: 5000
+queue/discard_max_bytes: 0
+power/control: auto
+inflight:        0        0
+queue/max_segments: 2048
+power/runtime_active_time: 0
+queue/fua: 0
+integrity/read_verify: 0
+queue/iosched/prio_aging_expire: 10000
+queue/logical_block_size: 512
+queue/io_timeout: 30000
+trace/pid: disabled
+integrity/protection_interval_bytes: 0
+mq/0/cpu_list: 0, 1, 2, 3
+queue/throttle_sample_time: 100
+queue/nr_zones: 0
+queue/dma_alignment: 511
+queue/nr_requests: 2
+events: media_change
+power/autosuspend_delay_ms: media_change
+trace/enable: 0
+trace/act_mask: disabled
+removable: 1
+stat:       36        0      680       49        0        0        0        0        0       54       49        0        0        0        0        0        0
+ext_range: 256
+queue/hw_sector_size: 512
+trace/start_lba: disabled
+integrity/tag_size: 0
+queue/write_same_max_bytes: 0
+queue/iosched/writes_starved: 2
+ro: 0
+queue/iosched/read_expire: 500
+queue/read_ahead_kb: 128
+queue/max_hw_sectors_kb: 120
+range: 16
+queue/zone_append_max_bytes: 0
+queue/max_discard_segments: 1
+queue/discard_granularity: 0
+queue/minimum_io_size: 512
+discard_alignment: 0
+bdi: 0
+queue/iosched/front_merges: 1
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4/2-1.4:1.0/host2/target2:0:0/2:0:0:0/block/sdb
+SUBSYSTEM: block
+DEVNAME: /dev/sdb
+DEVTYPE: disk
+DISKSEQ: 112
+SEQNUM: 16722
+USEC_INITIALIZED: 85382350157
+MPATH_SBIN_PATH: /sbin
+.SAVED_FM_WAIT_UNTIL: 
+DM_MULTIPATH_DEVICE_PATH: 0
+.MPATH_CHECK_PASSED: 1
+ID_BUS: usb
+ID_MODEL: USB_DISK_2.0
+ID_MODEL_ENC: USB\x20DISK\x202.0\x20\x20\x20\x20
+ID_MODEL_ID: 0225
+ID_SERIAL: 6557_USB_DISK_2.0_5534321297831581622-0:0
+ID_SERIAL_SHORT: 5534321297831581622
+ID_VENDOR: 6557
+ID_VENDOR_ENC: 6557
+ID_VENDOR_ID: 6557
+ID_REVISION: 2.00
+ID_TYPE: disk
+ID_INSTANCE: 0:0
+ID_USB_MODEL: USB_DISK_2.0
+ID_USB_MODEL_ENC: USB\x20DISK\x202.0\x20\x20\x20\x20
+ID_USB_MODEL_ID: 0225
+ID_USB_SERIAL: 6557_USB_DISK_2.0_5534321297831581622-0:0
+ID_USB_SERIAL_SHORT: 5534321297831581622
+ID_USB_VENDOR: 6557
+ID_USB_VENDOR_ENC: 6557
+ID_USB_VENDOR_ID: 6557
+ID_USB_REVISION: 2.00
+ID_USB_TYPE: disk
+ID_USB_INSTANCE: 0:0
+ID_USB_INTERFACES: :080650:
+ID_USB_INTERFACE_NUM: 00
+ID_USB_DRIVER: usb-storage
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH: pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4_1_0-scsi-0_0_0_0
+ID_PART_TABLE_UUID: 210d360b
+ID_PART_TABLE_TYPE: dos
+.MODEL: USB_DISK_2.0
+MAJOR: 8
+MINOR: 16
+DEVLINKS: /dev/disk/by-diskseq/112 /dev/disk/by-id/usb-6557_USB_DISK_2.0_5534321297831581622-0:0 /dev/disk/by-path/pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-path/pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+TAGS: :systemd:
+CURRENT_TAGS: :systemd:
+
+#############
+: 
+#############
+
+bmAttributes: 80
+subsystem: usb
+remove: usb
+version:  2.00
+bcdDevice: 0200
+speed: 480
+bNumInterfaces:  1
+busnum: 2
+removable: unknown
+tx_lanes: 1
+maxchild: 0
+power/runtime_active_time: 23
+serial: 5534321297831581622
+power/connected_duration: 600
+avoid_reset_quirk: 0
+product: USB DISK 2.0
+devpath: 1.4
+bDeviceClass: 00
+rx_lanes: 1
+power/autosuspend_delay_ms: 2000
+bDeviceSubClass: 00
+idVendor: 6557
+bDeviceProtocol: 00
+urbnum: 9
+power/control: on
+port: on
+bConfigurationValue: 1
+bMaxPower: 100mA
+power/persist: 1
+bNumConfigurations: 1
+ltm_capable: no
+dev: 189:239
+power/runtime_suspended_time: 0
+quirks: 0x0
+power/autosuspend: 2
+devnum: 112
+power/level: on
+descriptors: 
+bMaxPacketSize0: 64
+uevent: MAJOR=189
+MINOR=239
+DEVNAME=bus/usb/002/112
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=6557/225/200
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=112
+power/runtime_status: active
+configuration: 
+idProduct: 0225
+authorized: 1
+power/active_duration: 600
+driver: usb
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/112
+DEVTYPE: usb_device
+PRODUCT: 6557/225/200
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 112
+SEQNUM: 16743
+USEC_INITIALIZED: 85384740315
+ID_BUS: usb
+ID_MODEL: USB_DISK_2.0
+ID_MODEL_ENC: USB\x20DISK\x202.0
+ID_MODEL_ID: 0225
+ID_SERIAL: 6557_USB_DISK_2.0_5534321297831581622
+ID_SERIAL_SHORT: 5534321297831581622
+ID_VENDOR: 6557
+ID_VENDOR_ENC: 6557
+ID_VENDOR_ID: 6557
+ID_REVISION: 0200
+ID_USB_MODEL: USB_DISK_2.0
+ID_USB_MODEL_ENC: USB\x20DISK\x202.0
+ID_USB_MODEL_ID: 0225
+ID_USB_SERIAL: 6557_USB_DISK_2.0_5534321297831581622
+ID_USB_SERIAL_SHORT: 5534321297831581622
+ID_USB_VENDOR: 6557
+ID_USB_VENDOR_ENC: 6557
+ID_USB_VENDOR_ID: 6557
+ID_USB_REVISION: 0200
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: Emtec
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 239
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+
+#############
+: 
+#############
+
+events: media_change
+alignment_offset: 0
+queue/max_segment_size: 65536
+mq/0/cpu_list: 0, 1, 2, 3
+dev: 8:16
+queue/write_same_max_bytes: 0
+queue/iosched/write_expire: 5000
+queue/zoned: none
+queue/iosched/front_merges: 1
+integrity/tag_size: 0
+queue/scheduler: none [mq-deadline] kyber bfq 
+queue/write_cache: write through
+uevent: MAJOR=8
+MINOR=16
+DEVNAME=sdb
+DEVTYPE=disk
+DISKSEQ=113
+removable: 1
+queue/hw_sector_size: 512
+size: 61440000
+queue/fua: 0
+queue/wbt_lat_usec: 75000
+queue/write_zeroes_max_bytes: 0
+queue/io_poll_delay: -1
+events_poll_msecs: -1
+integrity/protection_interval_bytes: 0
+ext_range: 256
+mq/0/nr_tags: 1
+queue/iosched/writes_starved: 2
+subsystem: block
+bdi: block
+queue/rq_affinity: 1
+integrity/format: none
+queue/physical_block_size: 512
+queue/discard_max_hw_bytes: 0
+queue/max_hw_sectors_kb: 120
+trace/end_lba: disabled
+trace/start_lba: disabled
+queue/iosched/read_expire: 500
+power/runtime_suspended_time: 0
+queue/read_ahead_kb: 128
+queue/chunk_sectors: 0
+ro: 0
+queue/stable_writes: 0
+hidden: 0
+queue/max_sectors_kb: 120
+discard_alignment: 0
+queue/nr_zones: 0
+queue/nomerges: 0
+queue/rotational: 1
+queue/iostats: 1
+queue/discard_granularity: 0
+queue/max_integrity_segments: 0
+device: 0
+queue/iosched/prio_aging_expire: 10000
+diskseq: 113
+power/runtime_status: unsupported
+trace/act_mask: disabled
+queue/throttle_sample_time: 100
+queue/nr_requests: 2
+range: 16
+trace/pid: disabled
+queue/optimal_io_size: 0
+queue/add_random: 1
+queue/logical_block_size: 512
+stat:       36        0      680       47        0        0        0        0        0       54       47        0        0        0        0        0        0
+integrity/write_generate: 0
+queue/zone_append_max_bytes: 0
+queue/max_discard_segments: 1
+trace/enable: 0
+queue/zone_write_granularity: 0
+power/runtime_active_time: 0
+power/control: auto
+queue/max_segments: 2048
+mq/0/nr_reserved_tags: 0
+inflight:        0        0
+queue/io_poll: 0
+queue/virt_boundary_mask: 0
+queue/iosched/fifo_batch: 16
+queue/minimum_io_size: 512
+queue/iosched/async_depth: 48
+capability: 0
+power/autosuspend_delay_ms: 0
+integrity/device_is_integrity_capable: 0
+queue/discard_zeroes_data: 0
+queue/io_timeout: 30000
+queue/dma_alignment: 511
+events_async: 
+integrity/read_verify: 0
+queue/discard_max_bytes: 0
+queue/dax: 0
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4/2-1.4:1.0/host2/target2:0:0/2:0:0:0/block/sdb
+SUBSYSTEM: block
+DEVNAME: /dev/sdb
+DEVTYPE: disk
+DISKSEQ: 113
+SEQNUM: 16757
+USEC_INITIALIZED: 85385759549
+MPATH_SBIN_PATH: /sbin
+.SAVED_FM_WAIT_UNTIL: 
+DM_MULTIPATH_DEVICE_PATH: 0
+.MPATH_CHECK_PASSED: 1
+ID_BUS: usb
+ID_MODEL: USB_DISK_2.0
+ID_MODEL_ENC: USB\x20DISK\x202.0\x20\x20\x20\x20
+ID_MODEL_ID: 0225
+ID_SERIAL: 6557_USB_DISK_2.0_5534321297831581622-0:0
+ID_SERIAL_SHORT: 5534321297831581622
+ID_VENDOR: 6557
+ID_VENDOR_ENC: 6557
+ID_VENDOR_ID: 6557
+ID_REVISION: 2.00
+ID_TYPE: disk
+ID_INSTANCE: 0:0
+ID_USB_MODEL: USB_DISK_2.0
+ID_USB_MODEL_ENC: USB\x20DISK\x202.0\x20\x20\x20\x20
+ID_USB_MODEL_ID: 0225
+ID_USB_SERIAL: 6557_USB_DISK_2.0_5534321297831581622-0:0
+ID_USB_SERIAL_SHORT: 5534321297831581622
+ID_USB_VENDOR: 6557
+ID_USB_VENDOR_ENC: 6557
+ID_USB_VENDOR_ID: 6557
+ID_USB_REVISION: 2.00
+ID_USB_TYPE: disk
+ID_USB_INSTANCE: 0:0
+ID_USB_INTERFACES: :080650:
+ID_USB_INTERFACE_NUM: 00
+ID_USB_DRIVER: usb-storage
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH: pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4_1_0-scsi-0_0_0_0
+ID_PART_TABLE_UUID: 210d360b
+ID_PART_TABLE_TYPE: dos
+.MODEL: USB_DISK_2.0
+MAJOR: 8
+MINOR: 16
+DEVLINKS: /dev/disk/by-diskseq/113 /dev/disk/by-id/usb-6557_USB_DISK_2.0_5534321297831581622-0:0 /dev/disk/by-path/pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-path/pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+TAGS: :systemd:
+CURRENT_TAGS: :systemd:
+
+#############
+: 
+#############
+
+version:  2.00
+speed: 480
+bDeviceClass: 00
+manufacturer:         
+power/runtime_active_time: 30
+driver: usb
+bcdDevice: 0100
+power/connected_duration: 197
+devnum: 113
+bNumConfigurations: 1
+bmAttributes: 80
+maxchild: 0
+bDeviceProtocol: 00
+remove: 00
+urbnum: 9
+bConfigurationValue: 1
+uevent: MAJOR=189
+MINOR=240
+DEVNAME=bus/usb/002/113
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=abcd/1234/100
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=113
+bMaxPacketSize0: 64
+busnum: 2
+power/autosuspend: 2
+authorized: 1
+port: 1
+bNumInterfaces:  1
+quirks: 0x0
+ltm_capable: no
+rx_lanes: 1
+power/persist: 1
+power/level: on
+bDeviceSubClass: 00
+dev: 189:240
+idVendor: abcd
+tx_lanes: 1
+power/autosuspend_delay_ms: 2000
+product: PHILIPS         
+power/active_duration: 197
+serial: Љ
+subsystem: usb
+configuration: 
+power/control: on
+power/runtime_status: active
+devpath: 1.4
+power/runtime_suspended_time: 0
+avoid_reset_quirk: 0
+descriptors: 
+removable: unknown
+idProduct: 1234
+bMaxPower: 100mA
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/113
+DEVTYPE: usb_device
+PRODUCT: abcd/1234/100
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 113
+SEQNUM: 16778
+USEC_INITIALIZED: 85393409433
+ID_BUS: usb
+ID_MODEL: PHILIPS
+ID_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 1234
+ID_SERIAL: _PHILIPS
+ID_VENDOR: 
+ID_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_VENDOR_ID: abcd
+ID_REVISION: 0100
+ID_USB_MODEL: PHILIPS
+ID_USB_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 1234
+ID_USB_SERIAL: _PHILIPS
+ID_USB_VENDOR: 
+ID_USB_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_VENDOR_ID: abcd
+ID_USB_REVISION: 0100
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: LogiLink
+ID_MODEL_FROM_DATABASE: UDisk flash drive
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 240
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+
+#############
+: 
+#############
+
+queue/io_timeout: 30000
+range: 16
+queue/rotational: 1
+inflight:        0        0
+size: 30720000
+queue/max_segments: 2048
+queue/logical_block_size: 512
+queue/optimal_io_size: 0
+integrity/device_is_integrity_capable: 0
+mq/0/nr_tags: 1
+events: media_change
+queue/wbt_lat_usec: 75000
+ro: 0
+queue/iosched/prio_aging_expire: 10000
+bdi: 10000
+mq/0/nr_reserved_tags: 0
+queue/discard_granularity: 0
+queue/max_discard_segments: 1
+queue/iosched/write_expire: 5000
+queue/minimum_io_size: 512
+queue/iosched/async_depth: 48
+mq/0/cpu_list: 0, 1, 2, 3
+integrity/tag_size: 0
+capability: 0
+queue/hw_sector_size: 512
+trace/enable: 0
+power/runtime_suspended_time: 0
+queue/nr_requests: 2
+stat:       55        0     2112       61        0        0        0        0        0       47       61        0        0        0        0        0        0
+trace/end_lba: disabled
+alignment_offset: 0
+queue/iosched/writes_starved: 2
+queue/throttle_sample_time: 100
+queue/iosched/fifo_batch: 16
+queue/max_segment_size: 65536
+queue/fua: 0
+diskseq: 114
+uevent: MAJOR=8
+MINOR=16
+DEVNAME=sdb
+DEVTYPE=disk
+DISKSEQ=114
+integrity/protection_interval_bytes: 0
+ext_range: 256
+queue/io_poll: 0
+queue/chunk_sectors: 0
+queue/discard_max_bytes: 0
+queue/virt_boundary_mask: 0
+queue/iosched/read_expire: 500
+queue/write_same_max_bytes: 0
+removable: 1
+device: 1
+power/control: auto
+dev: 8:16
+queue/write_cache: write through
+subsystem: block
+queue/nomerges: 0
+power/autosuspend_delay_ms: 0
+queue/dma_alignment: 511
+queue/nr_zones: 0
+queue/physical_block_size: 512
+queue/add_random: 1
+queue/zoned: none
+queue/max_hw_sectors_kb: 120
+queue/max_integrity_segments: 0
+queue/iosched/front_merges: 1
+integrity/read_verify: 0
+trace/act_mask: disabled
+queue/read_ahead_kb: 128
+events_async: 
+queue/rq_affinity: 1
+queue/discard_zeroes_data: 0
+queue/zone_write_granularity: 0
+queue/scheduler: none [mq-deadline] kyber bfq 
+queue/dax: 0
+queue/zone_append_max_bytes: 0
+queue/io_poll_delay: -1
+queue/write_zeroes_max_bytes: 0
+discard_alignment: 0
+queue/discard_max_hw_bytes: 0
+hidden: 0
+trace/start_lba: disabled
+queue/max_sectors_kb: 120
+power/runtime_active_time: 0
+trace/pid: disabled
+events_poll_msecs: -1
+integrity/format: none
+power/runtime_status: unsupported
+integrity/write_generate: 0
+queue/stable_writes: 0
+queue/iostats: 1
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4/2-1.4:1.0/host2/target2:0:0/2:0:0:0/block/sdb
+SUBSYSTEM: block
+DEVNAME: /dev/sdb
+DEVTYPE: disk
+DISKSEQ: 114
+SEQNUM: 16792
+USEC_INITIALIZED: 85394427493
+MPATH_SBIN_PATH: /sbin
+.SAVED_FM_WAIT_UNTIL: 
+DM_MULTIPATH_DEVICE_PATH: 0
+.MPATH_CHECK_PASSED: 1
+ID_BUS: usb
+ID_MODEL: PHILIPS
+ID_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 1234
+ID_SERIAL: _PHILIPS-0:0
+ID_VENDOR: 
+ID_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_VENDOR_ID: abcd
+ID_REVISION: 5.00
+ID_TYPE: disk
+ID_INSTANCE: 0:0
+ID_USB_MODEL: PHILIPS
+ID_USB_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 1234
+ID_USB_SERIAL: _PHILIPS-0:0
+ID_USB_VENDOR: 
+ID_USB_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_VENDOR_ID: abcd
+ID_USB_REVISION: 5.00
+ID_USB_TYPE: disk
+ID_USB_INSTANCE: 0:0
+ID_USB_INTERFACES: :080650:
+ID_USB_INTERFACE_NUM: 00
+ID_USB_DRIVER: usb-storage
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH: pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4_1_0-scsi-0_0_0_0
+ID_FS_LABEL: PH2
+ID_FS_LABEL_ENC: PH2
+ID_FS_UUID: 7084-ABCC
+ID_FS_UUID_ENC: 7084-ABCC
+ID_FS_VERSION: FAT32
+ID_FS_BLOCKSIZE: 8192
+ID_FS_SIZE: 15728640000
+ID_FS_TYPE: vfat
+ID_FS_USAGE: filesystem
+.MODEL: PHILIPS
+MAJOR: 8
+MINOR: 16
+DEVLINKS: /dev/disk/by-diskseq/114 /dev/disk/by-uuid/7084-ABCC /dev/disk/by-path/pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-label/PH2 /dev/disk/by-path/pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-id/usb-_PHILIPS-0:0
+TAGS: :systemd:
+CURRENT_TAGS: :systemd:
+
+#############
+: 
+#############
+
+descriptors: 
+authorized: 1
+power/autosuspend_delay_ms: 2000
+bDeviceProtocol: 00
+busnum: 2
+quirks: 0x0
+avoid_reset_quirk: 0
+product: PHILIPS         
+power/runtime_status: active
+bMaxPower: 100mA
+rx_lanes: 1
+driver: usb
+subsystem: usb
+power/runtime_suspended_time: 0
+dev: 189:242
+port: 189:242
+bMaxPacketSize0: 64
+bmAttributes: 80
+configuration: 
+power/runtime_active_time: 23
+bNumInterfaces:  1
+bDeviceSubClass: 00
+idVendor: abcd
+speed: 480
+power/connected_duration: 190
+bDeviceClass: 00
+tx_lanes: 1
+remove: 1
+idProduct: 1234
+power/autosuspend: 2
+bNumConfigurations: 1
+bcdDevice: 0100
+urbnum: 9
+ltm_capable: no
+power/active_duration: 190
+removable: unknown
+power/persist: 1
+serial: Љ
+devpath: 1.4
+uevent: MAJOR=189
+MINOR=242
+DEVNAME=bus/usb/002/115
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=abcd/1234/100
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=115
+version:  2.00
+devnum: 115
+power/level: on
+bConfigurationValue: 1
+maxchild: 0
+power/control: on
+manufacturer:         
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/115
+DEVTYPE: usb_device
+PRODUCT: abcd/1234/100
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 115
+SEQNUM: 16814
+USEC_INITIALIZED: 85404985558
+ID_BUS: usb
+ID_MODEL: PHILIPS
+ID_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 1234
+ID_SERIAL: _PHILIPS
+ID_VENDOR: 
+ID_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_VENDOR_ID: abcd
+ID_REVISION: 0100
+ID_USB_MODEL: PHILIPS
+ID_USB_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 1234
+ID_USB_SERIAL: _PHILIPS
+ID_USB_VENDOR: 
+ID_USB_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_VENDOR_ID: abcd
+ID_USB_REVISION: 0100
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: LogiLink
+ID_MODEL_FROM_DATABASE: UDisk flash drive
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 242
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+
+#############
+: 
+#############
+
+power/control: auto
+queue/io_poll_delay: -1
+queue/iosched/write_expire: 5000
+queue/iosched/front_merges: 1
+queue/discard_zeroes_data: 0
+trace/pid: disabled
+integrity/protection_interval_bytes: 0
+queue/max_segments: 2048
+queue/add_random: 1
+queue/write_same_max_bytes: 0
+integrity/write_generate: 0
+power/autosuspend_delay_ms: 0
+queue/max_hw_sectors_kb: 120
+events_poll_msecs: -1
+queue/discard_granularity: 0
+integrity/format: none
+discard_alignment: 0
+queue/dax: 0
+queue/write_cache: write through
+uevent: MAJOR=8
+MINOR=16
+DEVNAME=sdb
+DEVTYPE=disk
+DISKSEQ=115
+queue/rq_affinity: 1
+power/runtime_active_time: 0
+queue/iosched/fifo_batch: 16
+range: 16
+queue/iosched/writes_starved: 2
+queue/zone_append_max_bytes: 0
+queue/iosched/async_depth: 48
+trace/start_lba: disabled
+queue/throttle_sample_time: 100
+queue/virt_boundary_mask: 0
+queue/physical_block_size: 512
+capability: 0
+integrity/tag_size: 0
+queue/max_sectors_kb: 120
+queue/nr_requests: 2
+mq/0/nr_reserved_tags: 0
+queue/wbt_lat_usec: 75000
+mq/0/cpu_list: 0, 1, 2, 3
+queue/minimum_io_size: 512
+power/runtime_status: unsupported
+queue/dma_alignment: 511
+queue/zoned: none
+queue/hw_sector_size: 512
+device: 512
+events_async: 
+queue/iostats: 1
+queue/iosched/prio_aging_expire: 10000
+events: media_change
+trace/enable: 0
+size: 30720000
+hidden: 0
+queue/nr_zones: 0
+queue/io_timeout: 30000
+integrity/device_is_integrity_capable: 0
+queue/nomerges: 0
+subsystem: block
+queue/optimal_io_size: 0
+power/runtime_suspended_time: 0
+trace/end_lba: disabled
+inflight:        0        0
+integrity/read_verify: 0
+bdi: 0
+queue/discard_max_hw_bytes: 0
+dev: 8:16
+queue/max_integrity_segments: 0
+queue/logical_block_size: 512
+queue/stable_writes: 0
+queue/scheduler: none [mq-deadline] kyber bfq 
+queue/rotational: 1
+stat:       55        0     2112       74        0        0        0        0        0       57       74        0        0        0        0        0        0
+queue/read_ahead_kb: 128
+mq/0/nr_tags: 1
+queue/chunk_sectors: 0
+queue/discard_max_bytes: 0
+queue/write_zeroes_max_bytes: 0
+ro: 0
+diskseq: 115
+removable: 1
+queue/io_poll: 0
+ext_range: 256
+queue/max_segment_size: 65536
+queue/max_discard_segments: 1
+alignment_offset: 0
+queue/iosched/read_expire: 500
+trace/act_mask: disabled
+queue/fua: 0
+queue/zone_write_granularity: 0
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4/2-1.4:1.0/host2/target2:0:0/2:0:0:0/block/sdb
+SUBSYSTEM: block
+DEVNAME: /dev/sdb
+DEVTYPE: disk
+DISKSEQ: 115
+SEQNUM: 16831
+USEC_INITIALIZED: 85405997438
+MPATH_SBIN_PATH: /sbin
+.SAVED_FM_WAIT_UNTIL: 
+DM_MULTIPATH_DEVICE_PATH: 0
+.MPATH_CHECK_PASSED: 1
+ID_BUS: usb
+ID_MODEL: PHILIPS
+ID_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 1234
+ID_SERIAL: _PHILIPS-0:0
+ID_VENDOR: 
+ID_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_VENDOR_ID: abcd
+ID_REVISION: 5.00
+ID_TYPE: disk
+ID_INSTANCE: 0:0
+ID_USB_MODEL: PHILIPS
+ID_USB_MODEL_ENC: PHILIPS\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 1234
+ID_USB_SERIAL: _PHILIPS-0:0
+ID_USB_VENDOR: 
+ID_USB_VENDOR_ENC: \x20\x20\x20\x20\x20\x20\x20\x20
+ID_USB_VENDOR_ID: abcd
+ID_USB_REVISION: 5.00
+ID_USB_TYPE: disk
+ID_USB_INSTANCE: 0:0
+ID_USB_INTERFACES: :080650:
+ID_USB_INTERFACE_NUM: 00
+ID_USB_DRIVER: usb-storage
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH: pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4_1_0-scsi-0_0_0_0
+ID_FS_LABEL: PHILIPS_UFD
+ID_FS_LABEL_ENC: PHILIPS\x20UFD
+ID_FS_UUID: 12B1-72B5
+ID_FS_UUID_ENC: 12B1-72B5
+ID_FS_VERSION: FAT32
+ID_FS_BLOCKSIZE: 8192
+ID_FS_SIZE: 15728640000
+ID_FS_TYPE: vfat
+ID_FS_USAGE: filesystem
+.MODEL: PHILIPS
+MAJOR: 8
+MINOR: 16
+DEVLINKS: /dev/disk/by-uuid/12B1-72B5 /dev/disk/by-label/PHILIPS\x20UFD /dev/disk/by-path/pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-path/pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-diskseq/115 /dev/disk/by-id/usb-_PHILIPS-0:0
+TAGS: :systemd:
+CURRENT_TAGS: :systemd:
+
+#############
+: 
+#############
+
+maxchild: 0
+idProduct: 198a
+power/control: on
+power/runtime_active_time: 23
+bNumInterfaces:  1
+descriptors: 
+bMaxPacketSize0: 64
+rx_lanes: 1
+driver: usb
+devnum: 116
+power/runtime_suspended_time: 0
+configuration: 
+tx_lanes: 1
+power/persist: 1
+speed: 480
+bDeviceSubClass: 00
+devpath: 1.4
+bMaxPower: 100mA
+bmAttributes: 80
+uevent: MAJOR=189
+MINOR=243
+DEVNAME=bus/usb/002/116
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=1e3d/198a/100
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=116
+power/connected_duration: 187
+bDeviceClass: 00
+power/autosuspend: 2
+dev: 189:243
+bConfigurationValue: 1
+bNumConfigurations: 1
+version:  2.00
+busnum: 2
+power/level: on
+ltm_capable: no
+authorized: 1
+quirks: 0x0
+power/active_duration: 187
+idVendor: 1e3d
+remove: 1e3d
+bDeviceProtocol: 00
+subsystem: usb
+urbnum: 5
+power/autosuspend_delay_ms: 2000
+power/runtime_status: active
+removable: unknown
+avoid_reset_quirk: 0
+port: 0
+bcdDevice: 0100
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/116
+DEVTYPE: usb_device
+PRODUCT: 1e3d/198a/100
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 116
+SEQNUM: 16850
+USEC_INITIALIZED: 85413429210
+ID_BUS: usb
+ID_MODEL: 198a
+ID_MODEL_ENC: 198a
+ID_MODEL_ID: 198a
+ID_SERIAL: 1e3d_198a
+ID_VENDOR: 1e3d
+ID_VENDOR_ENC: 1e3d
+ID_VENDOR_ID: 1e3d
+ID_REVISION: 0100
+ID_USB_MODEL: 198a
+ID_USB_MODEL_ENC: 198a
+ID_USB_MODEL_ID: 198a
+ID_USB_SERIAL: 1e3d_198a
+ID_USB_VENDOR: 1e3d
+ID_USB_VENDOR_ENC: 1e3d
+ID_USB_VENDOR_ID: 1e3d
+ID_USB_REVISION: 0100
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: Chipsbank Microelectronics Co., Ltd
+ID_MODEL_FROM_DATABASE: Flash Disk
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+MAJOR: 189
+MINOR: 243
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+
+#############
+: 
+#############
+
+queue/io_timeout: 30000
+power/runtime_active_time: 0
+subsystem: block
+removable: 1
+queue/discard_zeroes_data: 0
+queue/iosched/read_expire: 500
+mq/0/nr_tags: 1
+events_async: 
+mq/0/nr_reserved_tags: 0
+power/runtime_status: unsupported
+power/control: auto
+queue/iosched/fifo_batch: 16
+mq/0/cpu_list: 0, 1, 2, 3
+queue/dma_alignment: 511
+queue/iosched/async_depth: 48
+uevent: MAJOR=8
+MINOR=16
+DEVNAME=sdb
+DEVTYPE=disk
+DISKSEQ=117
+queue/iosched/prio_aging_expire: 10000
+integrity/device_is_integrity_capable: 0
+queue/add_random: 0
+power/autosuspend_delay_ms: 0
+queue/write_cache: write through
+device: write through
+queue/max_integrity_segments: 0
+queue/zone_append_max_bytes: 0
+trace/enable: 0
+queue/throttle_sample_time: 100
+queue/max_hw_sectors_kb: 120
+integrity/write_generate: 0
+queue/virt_boundary_mask: 0
+trace/start_lba: disabled
+queue/max_segment_size: 65536
+queue/iosched/front_merges: 1
+queue/max_discard_segments: 1
+queue/iostats: 1
+queue/scheduler: none [mq-deadline] kyber bfq 
+queue/io_poll_delay: -1
+queue/read_ahead_kb: 128
+queue/logical_block_size: 512
+alignment_offset: 0
+range: 16
+queue/physical_block_size: 512
+queue/nomerges: 0
+queue/chunk_sectors: 0
+queue/rq_affinity: 1
+integrity/format: none
+ro: 0
+events_poll_msecs: -1
+stat:        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0        0
+queue/io_poll: 0
+queue/write_zeroes_max_bytes: 0
+queue/optimal_io_size: 0
+trace/end_lba: disabled
+integrity/tag_size: 0
+trace/act_mask: disabled
+queue/minimum_io_size: 512
+integrity/protection_interval_bytes: 0
+integrity/read_verify: 0
+ext_range: 256
+queue/zoned: none
+queue/rotational: 1
+queue/zone_write_granularity: 0
+hidden: 0
+queue/stable_writes: 0
+queue/max_sectors_kb: 120
+queue/nr_requests: 2
+power/runtime_suspended_time: 0
+queue/iosched/write_expire: 5000
+queue/discard_max_hw_bytes: 0
+queue/hw_sector_size: 512
+discard_alignment: 0
+queue/wbt_lat_usec: 75000
+queue/discard_granularity: 0
+queue/iosched/writes_starved: 2
+bdi: 2
+queue/nr_zones: 0
+queue/max_segments: 2048
+queue/fua: 0
+queue/dax: 0
+inflight:        0        0
+queue/discard_max_bytes: 0
+capability: 0
+queue/write_same_max_bytes: 0
+size: 0
+dev: 8:16
+trace/pid: disabled
+events: media_change
+diskseq: 117
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4/2-1.4:1.0/host2/target2:0:0/2:0:0:0/block/sdb
+SUBSYSTEM: block
+DEVNAME: /dev/sdb
+DEVTYPE: disk
+DISKSEQ: 116
+SEQNUM: 16864
+USEC_INITIALIZED: 85414450780
+MPATH_SBIN_PATH: /sbin
+.SAVED_FM_WAIT_UNTIL: 
+DM_MULTIPATH_DEVICE_PATH: 0
+.MPATH_CHECK_PASSED: 1
+ID_BUS: usb
+ID_MODEL: Flash_Disk
+ID_MODEL_ENC: Flash\x20Disk\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 198a
+ID_SERIAL: ChipsBnk_Flash_Disk-0:0
+ID_VENDOR: ChipsBnk
+ID_VENDOR_ENC: ChipsBnk
+ID_VENDOR_ID: 1e3d
+ID_REVISION: 5.00
+ID_TYPE: disk
+ID_INSTANCE: 0:0
+ID_USB_MODEL: Flash_Disk
+ID_USB_MODEL_ENC: Flash\x20Disk\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 198a
+ID_USB_SERIAL: ChipsBnk_Flash_Disk-0:0
+ID_USB_VENDOR: ChipsBnk
+ID_USB_VENDOR_ENC: ChipsBnk
+ID_USB_VENDOR_ID: 1e3d
+ID_USB_REVISION: 5.00
+ID_USB_TYPE: disk
+ID_USB_INSTANCE: 0:0
+ID_USB_INTERFACES: :080650:
+ID_USB_INTERFACE_NUM: 00
+ID_USB_DRIVER: usb-storage
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH: pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4_1_0-scsi-0_0_0_0
+.MODEL: Flash_Disk
+MAJOR: 8
+MINOR: 16
+DEVLINKS: /dev/disk/by-id/usb-ChipsBnk_Flash_Disk-0:0 /dev/disk/by-diskseq/116 /dev/disk/by-path/pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-path/pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+TAGS: :systemd:
+CURRENT_TAGS: :systemd:
+
+#############
+: 
+#############
+
+idVendor: 0781
+ltm_capable: no
+bDeviceSubClass: 00
+bNumConfigurations: 1
+bMaxPacketSize0: 64
+uevent: MAJOR=189
+MINOR=244
+DEVNAME=bus/usb/002/117
+DEVTYPE=usb_device
+DRIVER=usb
+PRODUCT=781/5571/127
+TYPE=0/0/0
+BUSNUM=002
+DEVNUM=117
+bConfigurationValue: 1
+version:  2.00
+power/autosuspend_delay_ms: 2000
+subsystem: usb
+bMaxPower: 200mA
+quirks: 0x0
+power/autosuspend: 2
+serial: 4C531001600503104005
+bDeviceProtocol: 00
+authorized: 1
+devpath: 1.4
+dev: 189:244
+power/connected_duration: 187
+port: 187
+power/level: on
+power/runtime_active_time: 24
+speed: 480
+bcdDevice: 0127
+maxchild: 0
+busnum: 2
+product: Cruzer Fit
+descriptors: 
+removable: unknown
+urbnum: 9
+bDeviceClass: 00
+driver: usb
+remove: usb
+devnum: 117
+idProduct: 5571
+avoid_reset_quirk: 0
+power/runtime_status: active
+rx_lanes: 1
+power/persist: 1
+manufacturer: SanDisk
+configuration: 
+bNumInterfaces:  1
+power/runtime_suspended_time: 0
+tx_lanes: 1
+bmAttributes: 80
+power/active_duration: 187
+power/control: on
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4
+SUBSYSTEM: usb
+DEVNAME: /dev/bus/usb/002/117
+DEVTYPE: usb_device
+PRODUCT: 781/5571/127
+TYPE: 0/0/0
+BUSNUM: 002
+DEVNUM: 117
+SEQNUM: 16883
+USEC_INITIALIZED: 85422135986
+ID_BUS: usb
+ID_MODEL: Cruzer_Fit
+ID_MODEL_ENC: Cruzer\x20Fit
+ID_MODEL_ID: 5571
+ID_SERIAL: SanDisk_Cruzer_Fit_4C531001600503104005
+ID_SERIAL_SHORT: 4C531001600503104005
+ID_VENDOR: SanDisk
+ID_VENDOR_ENC: SanDisk
+ID_VENDOR_ID: 0781
+ID_REVISION: 0127
+ID_USB_MODEL: Cruzer_Fit
+ID_USB_MODEL_ENC: Cruzer\x20Fit
+ID_USB_MODEL_ID: 5571
+ID_USB_SERIAL: SanDisk_Cruzer_Fit_4C531001600503104005
+ID_USB_SERIAL_SHORT: 4C531001600503104005
+ID_USB_VENDOR: SanDisk
+ID_USB_VENDOR_ENC: SanDisk
+ID_USB_VENDOR_ID: 0781
+ID_USB_REVISION: 0127
+ID_USB_INTERFACES: :080650:
+ID_VENDOR_FROM_DATABASE: SanDisk Corp.
+ID_MODEL_FROM_DATABASE: Cruzer Fit
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4
+ID_PATH: pci-0000:00:14.0-usb-0:1.4
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4
+DRIVER: usb
+ID_FOR_SEAT: usb-pci-0000_00_14_0-usb-0_1_4
+ID_DRIVE_THUMB: 1
+MAJOR: 189
+MINOR: 244
+TAGS: :seat:
+CURRENT_TAGS: :seat:
+
+#############
+: 
+#############
+
+range: 16
+queue/discard_max_hw_bytes: 0
+queue/dma_alignment: 511
+queue/io_poll_delay: -1
+queue/minimum_io_size: 512
+queue/nr_zones: 0
+queue/discard_max_bytes: 0
+queue/max_hw_sectors_kb: 120
+mq/0/cpu_list: 0, 1, 2, 3
+power/control: auto
+integrity/write_generate: 0
+hidden: 0
+ro: 0
+integrity/format: none
+queue/write_cache: write through
+bdi: write through
+queue/virt_boundary_mask: 0
+discard_alignment: 0
+queue/nomerges: 0
+queue/wbt_lat_usec: 75000
+queue/write_zeroes_max_bytes: 0
+mq/0/nr_reserved_tags: 0
+inflight:        0        0
+mq/0/nr_tags: 1
+queue/add_random: 1
+device: 1
+queue/iosched/prio_aging_expire: 10000
+queue/hw_sector_size: 512
+queue/max_sectors_kb: 120
+dev: 8:16
+size: 30529536
+queue/fua: 0
+trace/enable: 0
+queue/max_integrity_segments: 0
+queue/read_ahead_kb: 128
+subsystem: block
+queue/io_timeout: 30000
+power/autosuspend_delay_ms: 30000
+queue/zone_write_granularity: 0
+queue/chunk_sectors: 0
+power/runtime_status: unsupported
+queue/throttle_sample_time: 100
+queue/dax: 0
+power/runtime_suspended_time: 0
+queue/max_segment_size: 65536
+queue/physical_block_size: 512
+trace/pid: disabled
+queue/optimal_io_size: 0
+queue/iostats: 1
+queue/max_discard_segments: 1
+queue/write_same_max_bytes: 0
+alignment_offset: 0
+queue/scheduler: none [mq-deadline] kyber bfq 
+integrity/tag_size: 0
+queue/discard_granularity: 0
+queue/iosched/read_expire: 500
+integrity/protection_interval_bytes: 0
+queue/rq_affinity: 1
+events: media_change
+queue/iosched/async_depth: 48
+trace/start_lba: disabled
+queue/iosched/front_merges: 1
+integrity/read_verify: 0
+queue/zoned: none
+queue/rotational: 1
+queue/discard_zeroes_data: 0
+removable: 1
+stat:       50        0     1592      108        0        0        0        0        0       90      108        0        0        0        0        0        0
+queue/iosched/fifo_batch: 16
+power/runtime_active_time: 0
+trace/end_lba: disabled
+queue/max_segments: 2048
+capability: 0
+queue/stable_writes: 0
+queue/zone_append_max_bytes: 0
+trace/act_mask: disabled
+queue/io_poll: 0
+uevent: MAJOR=8
+MINOR=16
+DEVNAME=sdb
+DEVTYPE=disk
+DISKSEQ=118
+queue/nr_requests: 2
+diskseq: 118
+queue/iosched/write_expire: 5000
+queue/logical_block_size: 512
+events_poll_msecs: -1
+ext_range: 256
+events_async: 
+integrity/device_is_integrity_capable: 0
+queue/iosched/writes_starved: 2
+ACTION: add
+DEVPATH: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.4/2-1.4:1.0/host2/target2:0:0/2:0:0:0/block/sdb
+SUBSYSTEM: block
+DEVNAME: /dev/sdb
+DEVTYPE: disk
+DISKSEQ: 118
+SEQNUM: 16897
+USEC_INITIALIZED: 85423161065
+MPATH_SBIN_PATH: /sbin
+.SAVED_FM_WAIT_UNTIL: 
+DM_MULTIPATH_DEVICE_PATH: 0
+.MPATH_CHECK_PASSED: 1
+ID_BUS: usb
+ID_MODEL: Cruzer_Fit
+ID_MODEL_ENC: Cruzer\x20Fit\x20\x20\x20\x20\x20\x20
+ID_MODEL_ID: 5571
+ID_SERIAL: SanDisk_Cruzer_Fit_4C531001600503104005-0:0
+ID_SERIAL_SHORT: 4C531001600503104005
+ID_VENDOR: SanDisk
+ID_VENDOR_ENC: SanDisk\x20
+ID_VENDOR_ID: 0781
+ID_REVISION: 1.27
+ID_TYPE: disk
+ID_INSTANCE: 0:0
+ID_USB_MODEL: Cruzer_Fit
+ID_USB_MODEL_ENC: Cruzer\x20Fit\x20\x20\x20\x20\x20\x20
+ID_USB_MODEL_ID: 5571
+ID_USB_SERIAL: SanDisk_Cruzer_Fit_4C531001600503104005-0:0
+ID_USB_SERIAL_SHORT: 4C531001600503104005
+ID_USB_VENDOR: SanDisk
+ID_USB_VENDOR_ENC: SanDisk\x20
+ID_USB_VENDOR_ID: 0781
+ID_USB_REVISION: 1.27
+ID_USB_TYPE: disk
+ID_USB_INSTANCE: 0:0
+ID_USB_INTERFACES: :080650:
+ID_USB_INTERFACE_NUM: 00
+ID_USB_DRIVER: usb-storage
+ID_PATH_WITH_USB_REVISION: pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH: pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0
+ID_PATH_TAG: pci-0000_00_14_0-usb-0_1_4_1_0-scsi-0_0_0_0
+ID_FS_BLOCKSIZE: 2048
+ID_FS_SIZE: 852832256
+ID_FS_PUBLISHER_ID: Arch\x20Linux\x20\x3chttps:\x2f\x2farchlinux.org\x3e
+ID_FS_DATA_PREPARER_ID: prepared\x20by\x20mkarchiso
+ID_FS_APPLICATION_ID: Arch\x20Linux\x20Live\x2fRescue\x20CD
+ID_FS_UUID: 2023-05-03-17-21-52-00
+ID_FS_UUID_ENC: 2023-05-03-17-21-52-00
+ID_FS_BOOT_SYSTEM_ID: EL\x20TORITO\x20SPECIFICATION
+ID_FS_VERSION: Joliet Extension
+ID_FS_LABEL: ARCH_202305
+ID_FS_LABEL_ENC: ARCH_202305
+ID_FS_TYPE: iso9660
+ID_FS_USAGE: filesystem
+ID_PART_TABLE_UUID: 7c21e414
+ID_PART_TABLE_TYPE: dos
+ID_DRIVE_THUMB: 1
+.MODEL: Cruzer_Fit
+MAJOR: 8
+MINOR: 16
+DEVLINKS: /dev/disk/by-diskseq/118 /dev/disk/by-label/ARCH_202305 /dev/disk/by-uuid/2023-05-03-17-21-52-00 /dev/disk/by-path/pci-0000:00:14.0-usb-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-path/pci-0000:00:14.0-usbv2-0:1.4:1.0-scsi-0:0:0:0 /dev/disk/by-id/usb-SanDisk_Cruzer_Fit_4C531001600503104005-0:0
+TAGS: :systemd:
+CURRENT_TAGS: :systemd:
+
+#############
+: 
+#############
+

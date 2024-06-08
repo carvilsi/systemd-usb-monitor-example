@@ -1,0 +1,53 @@
+authorized: 1
+avoid_reset_quirk: 0
+bcdDevice: 0100
+bConfigurationValue: 1
+bDeviceClass: 00
+bDeviceProtocol: 00
+bDeviceSubClass: 00
+bmAttributes: 80
+bMaxPacketSize0: 64
+bMaxPower: 100mA
+bNumConfigurations: 1
+bNumInterfaces:  1
+BUSNUM=002
+busnum: 2
+configuration: 
+descriptors, 
+descriptors: 
+dev: 189:224
+DEVNAME=bus/usb/002/097
+DEVNUM=097
+devnum: 97
+devpath: 1.4
+DEVTYPE=usb_device
+driver: usb
+DRIVER=usb
+idProduct: 198a
+idVendor: 1e3d
+ltm_capable: no
+maxchild: 0
+MINOR=224
+port: no
+power/active_duration: 190
+power/autosuspend: 2
+power/autosuspend_delay_ms: 2000
+power/connected_duration: 190
+power/control: on
+power/level: on
+power/persist: 1
+power/runtime_active_time: 23
+power/runtime_status: active
+power/runtime_suspended_time: 0
+PRODUCT=1e3d/198a/100
+quirks: 0x0
+removable: unknown
+remove: 190
+rx_lanes: 1
+speed: 480
+subsystem: usb
+tx_lanes: 1
+TYPE=0/0/0
+uevent: MAJOR=189
+urbnum: 5
+version:  2.00
